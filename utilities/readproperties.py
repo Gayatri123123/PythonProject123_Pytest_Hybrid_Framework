@@ -5,11 +5,6 @@ config = configparser.RawConfigParser()
 config.read(".\\Configurations\\config.ini")
 
 class ReadConfig:
-    #talent_page
-    @staticmethod
-    def getApplicationURL_of_Talent():
-        url = config.get('common info','talent_baseurl')
-        return url
     #commerce
     @staticmethod
     def getApplicationURL1_of_comm():
