@@ -1,0 +1,11 @@
+[
+  "test_AddCustomer.py::Test_003_AddCustomer::test_addCustomer",
+  "test_AllNews.py::Test_004_Talent::test_TalentPageTitle",
+  "test_EmpData.py::Test_005_EMP::test_Emp_Data",
+  "test_login.py::Test_001_Login::test_homePageTitle",
+  "test_login.py::Test_001_Login::test_login",
+  "test_login_ddt.py::Test_002_DDT_Login::test_login_ddt",
+  "test_magic_bricks_home_page.py::Test_01_Magic_Bricks::test_Home_Page",
+  "test_search_customer.py::Test_004_Search_Customer::test_search_customer_by_email",
+  "test_search_customer.py::Test_004_Search_Customer::test_search_customer_by_name"
+]

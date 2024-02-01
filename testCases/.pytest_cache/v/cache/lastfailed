@@ -1,0 +1,4 @@
+{
+  "test_AllNews.py::Test_004_Talent::test_TalentPageTitle": true,
+  "test_login.py::Test_001_Login::test_homePageTitle": true
+}
