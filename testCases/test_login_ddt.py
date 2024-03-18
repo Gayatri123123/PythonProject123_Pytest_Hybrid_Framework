@@ -20,7 +20,6 @@ class Test_002_DDT_Login:
         self.driver= setup
         self.driver.get(self.comm_url)
         time.sleep(5)
-
         self.lp = Loginpage(self.driver)
 
         self.rows = XLUtils.getRowCount(self.path,'Sheet1')

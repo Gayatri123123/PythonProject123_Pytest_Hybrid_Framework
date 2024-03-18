@@ -25,9 +25,9 @@ class Test_001_Login:
         self.common = Common_Methods(self.driver)
         self.hp = Loginpage(self.driver)
         time.sleep(5)
-        self.common.highlight_elm("Welcome",)
+        self.common.highlight_elm("Welcome",'pink')
         time.sleep(3)
-        self.common.remove_highlight_element("Welcome")
+        self.common.remove_highlight_element("Welcome",)
         time.sleep(3)
         act_title=self.driver.title
         if act_title=="Your store. Login":
